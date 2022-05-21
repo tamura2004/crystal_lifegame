@@ -1,0 +1,17 @@
+name: game_of_life
+version: 0.1.0
+
+authors:
+  - tamura2004 <tamura2004@gmail.com>
+
+targets:
+  game_of_life:
+    main: src/game_of_life.cr
+
+crystal: 0.35.1
+
+license: MIT
+
+dependencies:
+  ncurses:
+    github: agatan/ncurses.cr
